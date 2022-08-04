@@ -4,9 +4,11 @@ import styles from './presentation.module.scss';
 export interface PresentationProps {}
 
 export function Presentation(props: PresentationProps) {
+
   return (
-    <div className={styles['container']}>
-      <h1>Welcome to Presentation!</h1>
+    <div className="flex align-items-center flex-column text-white ">
+      <h1>Matthis PINON</h1>
+
     </div>
   );
 }
