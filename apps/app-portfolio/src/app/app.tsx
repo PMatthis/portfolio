@@ -1,13 +1,13 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import styles from './app.module.scss';
-import NxWelcome from './nx-welcome';
+import Presentation from './presentation/presentation';
 
 export function App() {
   return (
-    <>
-      <NxWelcome title="app-portfolio" />
-      <div />
-    </>
+    <Presentation
+      summary="Je suis actuellement apprenti chez Euro-Information Développement,
+       me spécialisant dans les systèmes d'information et les technologies web"
+    />
   );
 }
 
