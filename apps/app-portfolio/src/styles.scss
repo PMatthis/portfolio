@@ -1,11 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
 /* Color Theme Swatches in Hex */
-$Bleu-theme-portfolio-1: #2346A8;
-$Bleu-theme-portfolio-2: #3963DB;
-$Bleu-theme-portfolio-3: #A1E1F4;
-$Bleu-theme-portfolio-4: #EBB96B;
-$Bleu-theme-portfolio-5: #F0D673;
+/* Color Theme Swatches in Hex */
+/* Color Theme Swatches in Hex */
+$portfolio1-1-hex: #2B2E36;
+$portfolio1-2-hex: #8694A6;
+$portfolio1-3-hex: #95DAC4;
+$portfolio1-4-hex: #C6DB51;
+$portfolio1-5-hex: #F2EFE9;
 
 body{
-  background-color: #3963DB;
+  background-color:$portfolio1-5-hex;
+}
+
+h1{
+  color:$portfolio1-4-hex;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2{
+  color:$portfolio1-1-hex;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p{
+  color:$portfolio1-2-hex;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
